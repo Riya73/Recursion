@@ -16,14 +16,7 @@ public class ArmstrongOrNot {
         int sum = checkArmstrong(number);
         return sum == number;
     }
-
-    // public static void main(String[] args) {
-    //     int number = 153; // Change this value to check a different number
-
-    //     boolean isArmstrong = isArmstrong(number);
-    //     System.out.println(number + " is" + (isArmstrong ? "" : " not") + " an Armstrong number.");
-    // }
-
+   
     public static void checkArmstrong(int number, int sum, int originalNumber) {
         if (number == 0) {
             if (sum == originalNumber) {
