@@ -1,7 +1,5 @@
 package Recursion;
 
-import java.security.cert.CertPathChecker;
-
 public class ArmstrongOrNot {
    public static int checkArmstrong(int number) {
         if (number == 0) {
